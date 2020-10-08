@@ -66,6 +66,18 @@ var projectBubblesortDemonstration =
     '</a>' +
     '</div>';
 
+var OS =
+    '<div class="project p-dark" id="p-OS">'+
+    '<a class="overlay" href="project/OverSpeed.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Over Speed</h1>' +
+    '<p>Speed matters</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 var RecursiveTrees =
     '<div class="project p-light" id="p-recursive-trees">' +
     '<a class="overlay" href="project/recursive-trees.html" target="_blank">' +
@@ -305,6 +317,7 @@ var frontend = [
     projectSaran,
     //projectUrgentcall,
     eMotionSmartJournal,
+    OS,
     projectArticleSummaryDeepLearning,
     projectOptimo,
     //projectStockNewsAnalysis,
@@ -339,6 +352,7 @@ var game = [
     projectApexTowerDefense,
     projectBeatVisualizer,
     ColourMatch,
+    OS,
     //projectSpaceInvaders,
     //projectAsteroids,
     projectPixelShooter
