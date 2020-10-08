@@ -1,0 +1,121 @@
+<!--Article Summary Deep Learning-->
+<!--article-summary-deep-learning-->
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133286804-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133286804-1');
+    </script>
+    <title>Article Summary Deep Learning - Saran-Gangster</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../res/favicon/site.webmanifest">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Saran-Gangster"/>
+    <meta property="og:description" content="I am basically a philanthropist!"/>
+    <meta property="og:url" content="saran-gangster.github.io"/>
+    <meta property="og:image" content="res/preview.png"/>
+    <link rel="stylesheet" href="../main.css">
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/cxa4izu.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }
+    </script>
+</head>
+<body>
+<div class="load"></div>
+
+
+<section class="intro" id="intro">
+    <div class="container vertical-center">
+        <h1><span>Project</span></h1>
+        <h1><span>Article Summary Deep Learning</span><span></span><span></span></h1>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <header>
+        <h2 class="header" id="header-about">About</h2>
+    </header>
+    <div class="container">
+        <div class="content vertical-center" id="project-content">
+
+
+            <h2>Summary</h2>
+            <p>Using deep learning and scraping to analyze/summarize articles! Just drop in any URL!</p>
+
+
+            <div class="slideshow-container">
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning1.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning2.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning3.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning4.png"></div>
+                <div class="mySlides"><img
+                        src="../res/projects/article-summary-deep-learning/article-summary-deep-learning5.png"></div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+
+            <h2>Installation & Usage</h2>
+            <a href="https://github.com/saran-gangster/Article-summary-using-deeplearning"><p>Github Repo</p></a>
+            <p><span class="code"># You will need to have Python 3 and Pip installed</span></p>
+            <p><span class="code">$ git clone https://github.com/saran-gangster/Article-summary-using-deeplearning.git</span></p>
+            <p><span class="code">$ cd article-summary-deep-learning</span></p>
+            <p><span class="code">$ pip install -r requirements.txt</span></p>
+            <p><span class="code">$ python -m spacy download en_core_web_sm</span></p>
+            <p><span class="code">$ python3 app.py</span></p>
+
+            <h2>Inspiration</h2>
+            <p>In a day and age where information is not only abundant but overflowing, I wanted to create a faster way
+                parse all of it. I originally wanted a browser extension that would summarize any page that I was
+                reading in a few bullet points so that I could save time. But I later settled on a web app for more
+                flexibility.</p>
+            <h2>What It Does</h2>
+            <p>The application takes in a URL and makes request to that page scraping all of the data from
+                it. The data is then cleaned (removing noise) and a name entity recognition is performed where all
+                entities are labeled in the text (that's the cool visualization/highlighted part). It then takes the
+                most
+                common entity in the text and assumes it is the subject of the article and proceeds to extract facts
+                from the text itself and renders the frontend.</p>
+            <h2>Technologies</h2>
+            <p>The web application is built using flask, and the frontend is pure css and html. For web scraping
+                beautifulsoup4 was used and deep learning was done using Spacy and textacy. Specifically Spacy for named
+                entity recognition (NER) and textacy for sentence structure analysis.</p>
+            <h2>Future Ideas And Whats Next</h2>
+            <p>I would like to gather more data for training the models. And I would also like to add a feature where
+                the algorithm will look for more sources on the internet about a topic (i.e. Obama) and gather more
+                data to analyse there.</p>
+
+            <a href="/"><p>Another project by Saran-Gangster</p></a>
+        </div>
+    </div>
+</section>
+
+<script src="../js/delay.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="../js/gallery.js"></script>
+</body>
+</html>
