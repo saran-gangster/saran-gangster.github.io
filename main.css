@@ -963,6 +963,11 @@ a {
     background: url("res/projects/Urgentcall/Urgentcall.png") no-repeat center center;
     background-size: cover;
 }
+}
+#p-OS {
+    background: url("res/projects/OS/OS1.png") no-repeat center center;
+    background-size: cover;
+}
 #p-stock-news-analysis {
     background: url("res/projects/stock-news-analysis/StockNewsAnalysis0.jpg") no-repeat center center;
     background-size: cover;
