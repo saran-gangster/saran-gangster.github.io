@@ -287,7 +287,7 @@ var eMotionSmartJournal =
 
 var featured = [
     projectSaran,
-    projectUrgentcall,
+    //projectUrgentcall,
     projectStockNewsAnalysis,
     eMotionSmartJournal,
     projectTickeriQ,
@@ -332,7 +332,7 @@ var frontend = [
 
 var datascience = [
     projectSaran,
-    projectUrgentcall,
+    //projectUrgentcall,
     projectStockNewsAnalysis,
     eMotionSmartJournal,
     projectArticleSummaryDeepLearning,
